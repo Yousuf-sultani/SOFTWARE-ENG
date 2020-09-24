@@ -21,3 +21,12 @@ print("redios of the circle is = %.2f"%radius)
 
 
 
+i = int(input("Enter the Number: "))
+for e in range(1,11):
+print(i, " * " , e," = ", e*i)
+
+s = int(input("enter the score"))
+for h in range(s):
+for j in range(h):
+print("*", end="")
+print("")
